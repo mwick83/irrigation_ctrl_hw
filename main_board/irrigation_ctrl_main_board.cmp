@@ -1,4 +1,12 @@
-Cmp-Mod V01 Created by PcbNew   date = Di 31 Okt 2017 16:19:06 CET
+Cmp-Mod V01 Created by PcbNew   date = So 21 Jan 2018 20:37:29 CET
+
+BeginCmp
+TimeStamp = 59F79ED4
+Path = /59F605BA
+Reference = J11;
+ValeurCmp = Conn_01x01;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
 
 BeginCmp
 TimeStamp = 59F2627D
@@ -585,70 +593,6 @@ IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = 59EC983B
-Path = /59E4F93C
-Reference = J6;
-ValeurCmp = PWR_IN;
-IdModule  = AKL230:AKL230-02;
-EndCmp
-
-BeginCmp
-TimeStamp = 59EC9842
-Path = /59DD4BFB
-Reference = J7;
-ValeurCmp = OUT_MAIN;
-IdModule  = AKL230:AKL230-03;
-EndCmp
-
-BeginCmp
-TimeStamp = 59EC9849
-Path = /59E1BB52
-Reference = J8;
-ValeurCmp = OUT_AUX0;
-IdModule  = AKL230:AKL230-03;
-EndCmp
-
-BeginCmp
-TimeStamp = 59EC9850
-Path = /59E1C102
-Reference = J9;
-ValeurCmp = OUT_AUX1;
-IdModule  = AKL230:AKL230-03;
-EndCmp
-
-BeginCmp
-TimeStamp = 59EC9810
-Path = /59DD3460
-Reference = J2;
-ValeurCmp = UART2;
-IdModule  = AKL230:AKL230-04;
-EndCmp
-
-BeginCmp
-TimeStamp = 59EC9808
-Path = /59DD32F8
-Reference = J1;
-ValeurCmp = UART1;
-IdModule  = AKL230:AKL230-04;
-EndCmp
-
-BeginCmp
-TimeStamp = 59F79ED0
-Path = /59F60276
-Reference = J10;
-ValeurCmp = Conn_01x01;
-IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
-EndCmp
-
-BeginCmp
-TimeStamp = 59F79ED4
-Path = /59F605BA
-Reference = J11;
-ValeurCmp = Conn_01x01;
-IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
-EndCmp
-
-BeginCmp
 TimeStamp = 59F79ED8
 Path = /59F606C8
 Reference = J12;
@@ -670,6 +614,70 @@ Path = /59E2B41E
 Reference = J3;
 ValeurCmp = JTAG;
 IdModule  = Connectors_IDC_005:IDC_Header_Straight_10pins_005;
+EndCmp
+
+BeginCmp
+TimeStamp = 59EC9850
+Path = /59E1C102
+Reference = J9;
+ValeurCmp = OUT_AUX1;
+IdModule  = AKL230:AKL230-03;
+EndCmp
+
+BeginCmp
+TimeStamp = 59EC9849
+Path = /59E1BB52
+Reference = J8;
+ValeurCmp = OUT_AUX0;
+IdModule  = AKL230:AKL230-03;
+EndCmp
+
+BeginCmp
+TimeStamp = 59EC9842
+Path = /59DD4BFB
+Reference = J7;
+ValeurCmp = OUT_MAIN;
+IdModule  = AKL230:AKL230-03;
+EndCmp
+
+BeginCmp
+TimeStamp = 59EC983B
+Path = /59E4F93C
+Reference = J6;
+ValeurCmp = PWR_IN;
+IdModule  = AKL230:AKL230-02;
+EndCmp
+
+BeginCmp
+TimeStamp = 59EC9808
+Path = /59DD32F8
+Reference = J1;
+ValeurCmp = UART1;
+IdModule  = AKL230:AKL230-04;
+EndCmp
+
+BeginCmp
+TimeStamp = 59EC9810
+Path = /59DD3460
+Reference = J2;
+ValeurCmp = UART2;
+IdModule  = AKL230:AKL230-04;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A517ED6
+Path = 
+Reference = REF***;
+ValeurCmp = OSHW-Logo_5.7x6mm_SilkScreen;
+IdModule  = Symbols:OSHW-Logo_5.7x6mm_SilkScreen;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F79ED0
+Path = /59F60276
+Reference = J10;
+ValeurCmp = Conn_01x01;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
 EndCmp
 
 EndListe

@@ -1659,7 +1659,7 @@ F 1 "BSS138" H 7000 5150 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 7000 5075 50  0001 L CIN
 F 3 "" H 6800 5150 50  0001 L CNN
 	1    6800 5150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L BSS138 Q4
@@ -2012,13 +2012,9 @@ Connection ~ 1300 1900
 Wire Wire Line
 	6550 4450 6600 4450
 Wire Wire Line
-	6550 5150 6600 5150
-Wire Wire Line
 	6100 4450 6250 4450
 Wire Wire Line
 	6150 4900 6900 4900
-Wire Wire Line
-	6900 4900 6900 4950
 Wire Wire Line
 	6150 4450 6150 4900
 Wire Wire Line
@@ -2031,8 +2027,6 @@ Wire Wire Line
 	6100 5150 6250 5150
 Wire Wire Line
 	6900 4250 6900 4200
-Wire Wire Line
-	6900 5400 6900 5350
 Connection ~ 4700 3000
 Connection ~ 6150 4450
 Connection ~ 6200 5150
@@ -2540,49 +2534,67 @@ Wire Wire Line
 $Comp
 L Conn_01x01 J10
 U 1 1 59F60276
-P 12650 1900
-F 0 "J10" H 12650 2000 50  0000 C CNN
-F 1 "Conn_01x01" H 12650 1800 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 12650 1900 50  0001 C CNN
-F 3 "" H 12650 1900 50  0001 C CNN
-	1    12650 1900
+P 9350 9700
+F 0 "J10" H 9350 9800 50  0000 C CNN
+F 1 "Conn_01x01" H 9350 9600 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9350 9700 50  0001 C CNN
+F 3 "" H 9350 9700 50  0001 C CNN
+	1    9350 9700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_01x01 J11
 U 1 1 59F605BA
-P 12650 2100
-F 0 "J11" H 12650 2200 50  0000 C CNN
-F 1 "Conn_01x01" H 12650 2000 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 12650 2100 50  0001 C CNN
-F 3 "" H 12650 2100 50  0001 C CNN
-	1    12650 2100
+P 9350 9900
+F 0 "J11" H 9350 10000 50  0000 C CNN
+F 1 "Conn_01x01" H 9350 9800 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9350 9900 50  0001 C CNN
+F 3 "" H 9350 9900 50  0001 C CNN
+	1    9350 9900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_01x01 J12
 U 1 1 59F606C8
-P 12650 2300
-F 0 "J12" H 12650 2400 50  0000 C CNN
-F 1 "Conn_01x01" H 12650 2200 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 12650 2300 50  0001 C CNN
-F 3 "" H 12650 2300 50  0001 C CNN
-	1    12650 2300
+P 9350 10100
+F 0 "J12" H 9350 10200 50  0000 C CNN
+F 1 "Conn_01x01" H 9350 10000 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9350 10100 50  0001 C CNN
+F 3 "" H 9350 10100 50  0001 C CNN
+	1    9350 10100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_01x01 J13
 U 1 1 59F607D5
-P 12650 2500
-F 0 "J13" H 12650 2600 50  0000 C CNN
-F 1 "Conn_01x01" H 12650 2400 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 12650 2500 50  0001 C CNN
-F 3 "" H 12650 2500 50  0001 C CNN
-	1    12650 2500
+P 9350 10300
+F 0 "J13" H 9350 10400 50  0000 C CNN
+F 1 "Conn_01x01" H 9350 10200 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9350 10300 50  0001 C CNN
+F 3 "" H 9350 10300 50  0001 C CNN
+	1    9350 10300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 12450 1900
-NoConn ~ 12450 2100
-NoConn ~ 12450 2300
-NoConn ~ 12450 2500
+NoConn ~ 9150 9700
+NoConn ~ 9150 9900
+NoConn ~ 9150 10100
+NoConn ~ 9150 10300
+Wire Wire Line
+	6900 4900 6900 4950
+Wire Wire Line
+	6900 5400 6900 5350
+Wire Wire Line
+	6550 5150 6600 5150
+Text Notes 11850 10500 0    60   ~ 0
+Irrigation Controller main board\n\nCopyright (c) 2017 Manuel Wick\nLicensed under the BSD 3-clause "New" or "Revised" License.\nSee LICENSE.md file or http://www.opensource.org/licenses/BSD-3-Clause for details.
+Text Notes 9100 10700 0    60   ~ 0
+Mounting\nholes
+Wire Notes Line
+	9050 9500 9650 9500
+Wire Notes Line
+	9650 9500 9650 10750
+Wire Notes Line
+	9650 10750 9050 10750
+Wire Notes Line
+	9050 10750 9050 9500
 $EndSCHEMATC

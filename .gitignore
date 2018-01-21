@@ -1,6 +1,8 @@
 *~
 *.bak
 *.kicad_pcb-bak
-*-cache.lib
+_autosave*
 *.s#*
 *.b#*
+*.html
+*.csv
