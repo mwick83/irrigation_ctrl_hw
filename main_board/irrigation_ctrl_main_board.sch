@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:irrigation_ctrl_main_board-cache
 LIBS:espressif-xess
 LIBS:tps54560
 LIBS:max3222
@@ -101,15 +102,14 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
-LIBS:irrigation_ctrl_main_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Irrigation Controller main board"
 Date ""
-Rev ""
+Rev "12/17"
 Comp ""
 Comment1 ""
 Comment2 ""
